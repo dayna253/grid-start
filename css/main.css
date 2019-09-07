@@ -102,30 +102,48 @@ html {
 }
 
 body {
-    background: url('../img/guitar.png') no-repeat;
-    background-size: cover;
-  font-family: sans-serif;
+  background: url('../img/guitar.png') no-repeat;
+  background-size: cover;
   padding: 2em;
   font-size: 1em;
   height: 100%;
 }
 
+header, footer, main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    width: 100%;
+    background-color: #5a5a5ab7;
+    padding: 10px;
+    margin-top: 10px;
+    border: double 3px rgba(255, 255, 255, 0.596);
+}
+header{
+    font-size: 1.8em;
+}
+footer{
+    justify-content: space-around;
+}
 .wrapper {
-  /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display:flex;
   justify-content:space-between;
   align-items:center;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.5em;
-  font-size: 1.6em;
+  font-size: 1.1em;
   background-color: #5a5a5ab7;
   padding: 10px;
-  margin-top: 50px;
+  margin-top: 10px;
   border: double 3px rgba(255, 255, 255, 0.596);
   display:flex;
   width:30%;
